@@ -1,0 +1,97 @@
+---
+title: "Installing Kali Linux on Windows Using VMware [2025 Beginner-Friendly Guide]"
+description: "Step-by-step guide for installing Kali Linux on a Windows machine using VMware Workstation Player. Perfect for cybersecurity beginners and ethical hacking enthusiasts!"
+image: "../assets/kali-linux.jpg"
+createdAt: 04-23-2025
+draft: false
+tags:
+  - kali linux
+  - vmware
+  - windows
+  - cybersecurity
+  - ethical hacking
+  - linux installation
+---
+
+# 🐧 Installing Kali Linux on Windows Using VMware [2025 Guide for Beginners]
+
+If you're getting into **cybersecurity** and you’ve heard of **Kali Linux**, you're probably wondering:  
+> *“Do I have to wipe my Windows and go full Linux?”*  
+Nope! You can safely install Kali on your Windows system using **VMware**, and that's exactly what I’m gonna walk you through today — step by step, no techy chaos.
+
+---
+
+## 🚀 Why Kali Linux?
+
+Kali Linux is a powerful, Debian-based Linux distro packed with hundreds of tools used for:
+
+- Penetration testing  
+- Digital forensics  
+- Reverse engineering  
+- Ethical hacking  
+
+Basically, if you're serious about cybersecurity — **Kali is your best friend**.
+
+> 💡 **Quick tip:** Kali is maintained by Offensive Security, and it's always updated with the latest tools and patches.
+
+---
+
+## 🧰 What You'll Need (Don’t Skip This)
+
+Before we get started, make sure you have these three things ready:
+
+1. ✅ [VMware Workstation Player (free)](https://www.vmware.com/products/workstation-player.html)  
+2. ✅ [Kali Linux ISO (official download)](https://www.kali.org/get-kali/#kali-platforms)  
+3. ✅ At least 8 GB RAM (4 GB minimum, but not recommended)
+
+> ⚠️ Note: This guide is for **VMware**, not VirtualBox. VMware gives better performance and hardware support for Kali.
+
+---
+
+## 💻 Step 1: Install VMware Workstation Player
+
+1. Head to the [VMware Player website](https://www.vmware.com/products/workstation-player.html) and download the installer.
+2. Run the `.exe` and go full "Next → Next → Finish" mode.
+3. Restart your PC after installation to avoid any weird glitches.
+
+---
+
+## 🔽 Step 2: Download Kali Linux ISO
+
+- Visit the [official Kali download page](https://www.kali.org/get-kali/#kali-platforms).
+- Under **Installer Images**, download the **64-bit (Installer)** version.
+- File size is around 3–4 GB, so go grab a coffee while it downloads ☕️
+
+---
+
+## 🧙‍♂️ Step 3: Set Up Kali in VMware
+
+1. Launch VMware, and click **“Create a New Virtual Machine.”**
+2. Choose:  
+   → “Installer disc image file (iso)” → Browse for your Kali ISO  
+3. Select Guest OS:  
+   → Linux → Debian 11.x 64-bit  
+4. Give it a name like `KaliLinux-Dincer`
+5. Set disk size to **40 GB or more**
+6. Assign **at least 4 GB of RAM** and **2 processors** for smoother experience
+
+---
+
+## 🎉 You're All Set!
+
+Once the VM boots up, just go through the Kali installation: language, keyboard layout, timezone, user setup — you know the drill.  
+After 10–15 minutes… *boom* 💥  
+**You’ve got Kali Linux running on your Windows machine!**
+
+> 🔐 First thing after install:  
+> Open terminal and run `sudo apt update && sudo apt upgrade`  
+> Don’t forget your root password!
+
+---
+
+Wanna keep going? Say **“Continue”** and I’ll show you how to:  
+- Install tools like Burp Suite and Wireshark  
+- Set up networking (NAT vs Bridged)  
+- Take snapshots (so you don’t break stuff 😄)
+
+Let me know if you want the next part!

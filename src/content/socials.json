@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": {
+      "type": "lucide",
+      "name": "youtube"
+    },
+    "text": "YouTube",
+    "link": "https://youtube.com/@dincertekin"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "type": "lucide",
+      "name": "github"
+    },
+    "text": "GitHub",
+    "link": "https://github.com/dincertekin"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "type": "lucide",
+      "name": "linkedin"
+    },
+    "text": "LinkedIn",
+    "link": "https://linkedin.com/in/dincertekin"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "type": "lucide",
+      "name": "instagram"
+    },
+    "text": "Instagram",
+    "link": "https://instagram.com/dincertekin0"
+  }
+]
