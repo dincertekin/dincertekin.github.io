@@ -4,7 +4,7 @@ description = "In this video, we create a simple AI logic using Python's difflib
 date = 2023-07-24
 
 [extra]
-video = { link = "https://www.youtube.com/watch?v=R8rrR2T9UX8", thumbnail = "images/videos/video-3.jpg" }
+video = { link = "https://www.youtube.com/watch?v=R8rrR2T9UX8", thumbnail = "/images/videos/video-3.jpg" }
 code = "https://github.com/dincertekin/youtube-python-dersleri"
 +++
 

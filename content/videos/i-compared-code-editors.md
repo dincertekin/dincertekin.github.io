@@ -4,7 +4,7 @@ description = "In this video, we answer the question every developer asks, Which
 date = 2025-10-16
 
 [extra]
-video = { link = "https://www.youtube.com/watch?v=cGYKJ02haTA", thumbnail = "images/videos/video-1.jpg" }
+video = { link = "https://www.youtube.com/watch?v=cGYKJ02haTA", thumbnail = "/images/videos/video-1.jpg" }
 +++
 
 In this video, we answer the question every developer asks, "Which code editor is better?"
